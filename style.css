@@ -42,9 +42,8 @@ header {
     background-color: rgb(254, 254, 138);
     text-align: center;
     display: flex;
-    /* border: 1px solid blue; */
-    padding: 50px 350px 0;
-    /* padding: auto; */
+    justify-content: center;
+    padding-top: 50px;
 }
 
 
