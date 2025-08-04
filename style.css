@@ -42,7 +42,7 @@ header {
     background-color: rgb(254, 254, 138);
     text-align: center;
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 50px 350px 0;
     /* padding: auto; */
 }
@@ -53,13 +53,13 @@ header {
     color: rgb(43, 43, 155);
     font-size: 1.5rem;
     margin-bottom: 20px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 350px;
 }
 
 .left {
     text-align: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 350px;
     height: 30vh;
 }
@@ -82,7 +82,7 @@ header {
 .iphone {
     width: 350px;
     object-fit: fill;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 /*--------------- すごい特徴--------------------------- */
@@ -150,7 +150,7 @@ header {
     width: calc((80% - 20px)/ 3);
     /* height: 170px; 高さは指定しない*/
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -159,8 +159,9 @@ header {
 
 .user1 {
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 0;
+    align-items: center;
 }
 
 
