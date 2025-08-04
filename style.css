@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------header ----------------------------*/
+header p {
+    width: 150px;
+    font-size: 1.5rem;
+    /* border: 1px solid pink; */
+    color: rgb(43, 43, 155);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    margin: 15px 20%;
+    justify-content: space-between;
+}
+
+.button {
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(3, 149, 3);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    /* margin: auto; */
+}
+
+
+/*---------- 黄色の枠内----------------------- */
+.class1 {
+    /* box-sizing: border-box; */
+    background-color: rgb(254, 254, 138);
+    text-align: center;
+    display: flex;
+    border: 1px solid blue;
+    padding: 50px 350px 0;
+    /* padding: auto; */
+}
+
+
+
+.lefttitle {
+    color: rgb(43, 43, 155);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    width: 350px;
+}
+
+.left {
+    text-align: center;
+    border: 1px solid blue;
+    width: 350px;
+    height: 30vh;
+}
+
+.button2 {
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(3, 149, 3);
+    border-radius: 5px;
+    color: white;
+    margin: 60px auto 0;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.iphone {
+    width: 350px;
+    object-fit: fill;
+    border: 1px solid blue;
+}
+
+/*--------------- すごい特徴--------------------------- */
+.class2 {
+    margin: 80px 20%;
+}
+
+.class2title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(43, 43, 155);
+    margin-bottom: 80px;
+}
+
+.class2-1 {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* border: 1px solid pink; */
+}
+
+.class2-1titel {
+    color: rgb(43, 43, 155);
+    font-size: 1.2rem;
+}
+
+.class2-1 img {
+    margin-right: 130px;
+    height: 15%;
+    /* border: 1px solid blue; */
+    padding-top: 50px;
+
+}
+
+.class2content {
+    /* border: 1px solid blue; */
+    margin: 20px 0;
+    text-align: left;
+    width: 65%;
+}
+
+.p1 {
+    margin: 20px 0;
+}
+
+/* -----------ユーザーの声---------------------- */
+.class3 {
+    /* border: 1px solid blue; */
+    margin: 0 20%;
+    margin-bottom: 100px;
+}
+
+.class3title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 24px;
+    color: rgb(43, 43, 155);
+}
+
+.class3content {
+    display: flex;
+
+}
+
+.class3-1 {
+    width: calc((80% - 20px)/ 3);
+    /* height: 170px; 高さは指定しない*/
+    margin: 0 auto;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.user1 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+.user1 img {
+    width: 20%;
+    height: 130%;
+    margin-right: 10px;
+    object-fit: cover;
+    /* vertical-align: bottom;これは必要？ */
+}
+
+.footer1 {
+    background-color: rgb(254, 254, 138);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 1.5rem;
+    color: rgb(43, 43, 155);
+    /* font-weight: 100; */
+}
+
+.footer1 p {
+    margin-bottom: 50px;
+}
+
+.button3 {
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(3, 149, 3);
+    border-radius: 5px;
+    color: white;
+    /* text-align: center; */
+    margin: auto;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.footer2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+
+@media (max-width: 440px) {
+    header {
+        margin: 15px;
+    }
+
+    .class1 {
+        padding: 50px 45px 0;
+        text-align: center;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .left {
+        height: 35vh;
+        margin: 50px 0;
+    }
+
+
+    .class1 img {
+        width: 100%;
+    }
+
+    .class2 {
+        margin: 0 15px;
+    }
+
+    .class2-1 {
+        display: block;
+        /* flex-direction: row-reverse; */
+        /* border: 1px solid pink; */
+    }
+
+    .class2-1 img {
+        margin-left: 30px;
+        width: 15%;
+    }
+
+    .class3 {
+        margin: 80px 10px;
+    }
+
+
+    /* memo
+黄色枠が中央に来るようにする
+
+ユーザーの声の写真をdivで囲んで比率が変わらないようにする
+写真とユーザー名がきれいに並ぶようにする */
